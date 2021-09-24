@@ -11,16 +11,16 @@ public enum SpecialCharacter {
     DOT ("\u00B7"),
 
     /** Character:   ←   */
-    LEFT_ARROW("\u2190"),
+    LEFT_ARROW ("\u2190"),
 
     /** Character:   →   */
-    RIGHT_ARROW("\u2192"),
+    RIGHT_ARROW ("\u2192"),
 
     /** Character:   «   */
-    DOUBLE_LEFT_ARROW("\u00AB"),
+    DOUBLE_LEFT_ARROW ("\u00AB"),
 
     /** Character:   »   */
-    DOUBLE_RIGHT_ARROW("\u00BB");
+    DOUBLE_RIGHT_ARROW ("\u00BB");
 
     private String unicode;
 
