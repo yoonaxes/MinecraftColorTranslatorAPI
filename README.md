@@ -14,6 +14,12 @@ Initial setup to start using ColorTranslatorAPI.
 
 ##### Maven:
 ```xml
+<repository>
+    <id>yoonaxes-maven</id>
+    <name>yoonaxes repository</name>
+    <url>https://maven.yoonaxes.pl/</url>
+</repository>
+
 <dependency>
   <groupId>net.yoonaxes</groupId>
   <artifactId>minecraftcolortranslatorapi</artifactId>
