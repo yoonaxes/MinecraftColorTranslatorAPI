@@ -57,9 +57,8 @@ public class ExampleUtil {
     // You can use DefaultColorTranslator, ExtraColorTranslator or make own translator.
     private static final ColorTranslator translator = new ExtraColorTranslator();
     
-    public ExampleUtil() {
-        String message = ExampleUtil.translateString("&6It's &esimple!");
-    }
+    // It's example of message using ExtraColorTranslator with Bukkit colors.
+    private static final String EXAMPLE_MESSAGE = ExampleUtil.translateString("&6It's &esimple!");
     
     public static String translateString(String string) {
         return translator.translateString(string);
