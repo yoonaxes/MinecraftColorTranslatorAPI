@@ -10,6 +10,7 @@ An open source Bukkit and Bungee util for easy creating your own color translato
 <hr />
 
 ## Initial Setup:
+Initial setup to start using ColorTranslatorAPI.
 
 ##### Maven:
 ```xml
@@ -39,6 +40,8 @@ dependencies {
 **·** [Download ColorTranslatorAPI-1.0.jar](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/download/downloads/ColorTranslatorAPI-1.0.jar)
 
 **·** [Download other release](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/)
+
+<br />
 
 ## Example usage
 
@@ -72,6 +75,7 @@ public class ExampleUtil {
 }
 
 ```
+<br />
 
 Example of creation **own translator**:
 
