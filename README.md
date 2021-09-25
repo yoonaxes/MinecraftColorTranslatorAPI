@@ -28,7 +28,9 @@ dependencies {
 ```
 
 ##### Download:
-**·** [Download from releases](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/)
+**·** [Download ColorTranslatorAPI-1.0.jar](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/download/downloads/ColorTranslatorAPI-1.0.jar)
+
+**·** [Download other release](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/)
 
 ## Example usage
 
