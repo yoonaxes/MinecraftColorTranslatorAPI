@@ -47,67 +47,94 @@ dependencies {
 
 **·** [Download other release](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/)
 
-<br />
+[comment]: <> (<br />)
 
-## Example usage
+[comment]: <> (## Example usage)
 
-Example usage of **ExtraColorTranslator**:
+[comment]: <> (Example usage of **ExtraColorTranslator**:)
 
-```java
-import net.yoonaxes.translator.ColorTranslator;
+[comment]: <> (```java)
 
-import java.util.List;
+[comment]: <> (import net.yoonaxes.translator.ColorTranslator;)
 
-public class ExampleUtil {
+[comment]: <> (import java.util.List;)
 
-    // You can use DefaultColorTranslator, ExtraColorTranslator or make own translator.
-    private static final ColorTranslator translator = new ExtraColorTranslator();
+[comment]: <> (public class ExampleUtil {)
+
+[comment]: <> (    // You can use DefaultColorTranslator, ExtraColorTranslator or make own translator.)
+
+[comment]: <> (    private static final ColorTranslator translator = new ExtraColorTranslator&#40;&#41;;)
     
-    // It's example of message using ExtraColorTranslator with Bukkit colors.
-    private static final String EXAMPLE_MESSAGE = ExampleUtil.translateString("&6It's &esimple!");
+[comment]: <> (    // It's example of message using ExtraColorTranslator with Bukkit colors.)
+
+[comment]: <> (    private static final String EXAMPLE_MESSAGE = ExampleUtil.translateString&#40;"&6It's &esimple!"&#41;;)
     
-    public static String translateString(String string) {
-        return translator.translateString(string);
-    }
+[comment]: <> (    public static String translateString&#40;String string&#41; {)
 
-    public static List<String> translateList(List<String> stringList) {
-        return translator.translateList(stringList);
-    }
+[comment]: <> (        return translator.translateString&#40;string&#41;;)
 
-    public static String[] translateArray(String... strings) {
-        return translator.translateArray(strings);
-    }
-}
+[comment]: <> (    })
 
-```
-<br />
+[comment]: <> (    public static List<String> translateList&#40;List<String> stringList&#41; {)
 
-Example of creation **own translator**:
+[comment]: <> (        return translator.translateList&#40;stringList&#41;;)
 
-```java
-import net.yoonaxes.translator.ColorTranslator;
+[comment]: <> (    })
 
-import java.util.List;
+[comment]: <> (    public static String[] translateArray&#40;String... strings&#41; {)
 
-public class ExampleOwnTranslator implements ColorTranslator {
+[comment]: <> (        return translator.translateArray&#40;strings&#41;;)
 
-    @Override
-    public String translateString(String string) {
-        // Own translate method
-        // You can use replaces etc.
-        return ColorTranslator.super.translateString(string); // This use default color translation.
-    }
+[comment]: <> (    })
 
-    @Override
-    public List<String> translateList(List<String> stringList) {
-        // This uses translateString to translate all strings in list.
-        return ColorTranslator.super.translateList(stringList);
-    }
+[comment]: <> (})
 
-    @Override
-    public String[] translateArray(String... strings) {
-        // This uses translateString to translate all strings in array.
-        return ColorTranslator.super.translateArray(strings);
-    }
-}
-```
+[comment]: <> (```)
+
+[comment]: <> (<br />)
+
+[comment]: <> (Example of creation **own translator**:)
+
+[comment]: <> (```java)
+
+[comment]: <> (import net.yoonaxes.translator.ColorTranslator;)
+
+[comment]: <> (import java.util.List;)
+
+[comment]: <> (public class ExampleOwnTranslator implements ColorTranslator {)
+
+[comment]: <> (    @Override)
+
+[comment]: <> (    public String translateString&#40;String string&#41; {)
+
+[comment]: <> (        // Own translate method)
+
+[comment]: <> (        // You can use replaces etc.)
+
+[comment]: <> (        return ColorTranslator.super.translateString&#40;string&#41;; // This use default color translation.)
+
+[comment]: <> (    })
+
+[comment]: <> (    @Override)
+
+[comment]: <> (    public List<String> translateList&#40;List<String> stringList&#41; {)
+
+[comment]: <> (        // This uses translateString to translate all strings in list.)
+
+[comment]: <> (        return ColorTranslator.super.translateList&#40;stringList&#41;;)
+
+[comment]: <> (    })
+
+[comment]: <> (    @Override)
+
+[comment]: <> (    public String[] translateArray&#40;String... strings&#41; {)
+
+[comment]: <> (        // This uses translateString to translate all strings in array.)
+
+[comment]: <> (        return ColorTranslator.super.translateArray&#40;strings&#41;;)
+
+[comment]: <> (    })
+
+[comment]: <> (})
+
+[comment]: <> (```)
