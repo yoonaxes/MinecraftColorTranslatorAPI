@@ -21,8 +21,8 @@ Initial setup to start using ColorTranslatorAPI.
 </repository>
 
 <dependency>
-  <groupId>net.yoonaxes</groupId>
-  <artifactId>minecraftcolortranslatorapi</artifactId>
+  <groupId>net.yoonaxes.minecraft</groupId>
+  <artifactId>colortranslator</artifactId>
   <version>1.0</version>
 </dependency>
 ```
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-  implementation 'net.yoonaxes:minecraftcolortranslatorapi:1.0'
+    implementation 'net.yoonaxes.minecraft:colortranslator:1.0'
 }
 ```
 
