@@ -5,9 +5,9 @@
 # MinecraftColorTranslatorAPI
 An open source Bukkit and Bungee util for easy creating your own color translators and using them in your projects. This tool is based on inferfaces so it is very simple and convenient for developers.
 
-</div>
-
 <hr />
+
+</div>
 
 ## Initial Setup:
 Initial setup to start using ColorTranslatorAPI.
@@ -22,7 +22,7 @@ Initial setup to start using ColorTranslatorAPI.
 
 <dependency>
   <groupId>net.yoonaxes.minecraft</groupId>
-  <artifactId>colortranslator</artifactId>
+  <artifactId>colortranslatorapi</artifactId>
   <version>1.0</version>
 </dependency>
 ```
@@ -38,7 +38,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'net.yoonaxes.minecraft:colortranslator:1.0'
+    implementation 'net.yoonaxes.minecraft:colortranslatorapi:1.0'
 }
 ```
 
