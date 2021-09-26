@@ -55,7 +55,6 @@ Example usage of ColorTranslatorAPI
 
 ```java
 import net.yoonaxes.translator.ColorTranslator;
-
 import java.util.List;
 
 public class ExampleUtil {
@@ -67,23 +66,16 @@ public class ExampleUtil {
     private static final String EXAMPLE_MESSAGE = ExampleUtil.translateString("&6It's &esimple!");
     
     public static String translateString(String string) {
-
         return translator.translateString(string);
-
     }
 
     public static List<String> translateList(List<String> stringList) {
-
         return translator.translateList(stringList);
-
     }
 
     public static String[] translateArray(String... strings) {
-
         return translator.translateArray(strings);
-
     }
-
 }
 ```
 
@@ -91,43 +83,29 @@ public class ExampleUtil {
 
 ```java
 import net.yoonaxes.translator.ColorTranslator;
-
 import java.util.List;
 
 public class ExampleOwnTranslator implements ColorTranslator {
 
     @Override
-
     public String translateString(String string) {
-
         // Own translate method
-
         // You can use replaces etc.
-
-        return ColorTranslator.super.translateString(string); // This use default color translation.
-
+        return ColorTranslator.super.translateString(string); // This method use default color translation.
     }
 
     @Override
 
     public List<String> translateList(List<String> stringList) {
-
         // This uses translateString to translate all strings in list.
-
         return ColorTranslator.super.translateList(stringList);
-
     }
 
     @Override
-
     public String[] translateArray(String... strings) {
-
         // This uses translateString to translate all strings in array.
-
         return ColorTranslator.super.translateArray(strings);
-
     }
-
 }
 ```
 
