@@ -43,7 +43,7 @@ dependencies {
 ```
 
 ##### Download:
-**·** [Download ColorTranslatorAPI-1.0.jar](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/download/downloads/ColorTranslatorAPI-1.0.jar)
+**·** [Download ColorTranslatorAPI-1.0.jar](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/download/1.0/ColorTranslatorAPI-1.0.jar)
 
 **·** [Download other release](https://github.com/yoonaxes/MinecraftColorTranslatorAPI/releases/)
 
