@@ -95,7 +95,6 @@ public class ExampleOwnTranslator implements ColorTranslator {
     }
 
     @Override
-
     public List<String> translateList(List<String> stringList) {
         // This uses translateString to translate all strings in list.
         return ColorTranslator.super.translateList(stringList);
